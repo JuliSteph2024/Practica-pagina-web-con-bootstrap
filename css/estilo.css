@@ -1,0 +1,64 @@
+body {
+    background-color: #ffffff;
+}
+.navbar-custom {
+    background-color:#ffdae6;
+    border-bottom: 1px solid #ffffff;
+}
+.navbar-custom a {
+    color: #333;
+}
+.header-minimalist {
+    padding: 60px 20px;
+    text-align: center;
+    color: #333;
+}
+.header-minimalist h1 {
+    font-size: 2.5rem;
+}
+.header-minimalist p {
+    font-size: 1.2rem;
+}
+
+.card {
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+
+.form-container {
+    margin-top: 30px;
+    padding: 40px;
+}
+
+.btn-custom {
+    background-color: #c2e6e4b7;
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #ffffff;
+    color: rgb(102, 102, 102);
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color:#ffdae6;
+    color: white;
+    margin-top: 30px;
+}
